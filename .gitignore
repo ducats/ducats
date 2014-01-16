@@ -1,0 +1,42 @@
+src/*.exe
+src/ducats
+src/ducatsd
+src/test_ducats
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.ducats
+
+# Compilation and Qt preprocessor part
+*.qm
+*.app
+*.dmg
+*.Debug
+*.Release
+ducats-qt
+Ducats-Qt.app
+release
+
+# Unit-tests
+Makefile.test
+ducats-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+#mac specific
+.DS_Store
+build
+*.plist
+*.xcodeproj
+PortIndex*
+dist
+
+!src/leveldb-*/Makefile
